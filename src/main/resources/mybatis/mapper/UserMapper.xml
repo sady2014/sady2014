@@ -4,7 +4,7 @@
 
 <mapper namespace="com.thsware.mapper.UserMapper" >
     <select id="getAll" resultType="com.thsware.entity.UserEntity">
-        select * from dbo.[user] ;
+        select * from test.dbo.[yours] ;
     </select>
 
 </mapper>
