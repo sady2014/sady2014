@@ -2,9 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 
-<mapper namespace="com.thsware.mapper.UserMapper" >
-    <select id="getAll" resultType="com.thsware.entity.UserEntity">
-        select * from test.dbo.[yours] ;
+<mapper namespace="com.thsware.mapper.BugMapper" >
+    <select id="getAll" resultType="com.thsware.entity.BugEntity">
+        select * from XMGL.dbo.[BUG] ;
     </select>
-
 </mapper>

@@ -1,12 +1,14 @@
 package com.thsware.mapper;
 
-import com.thsware.entity.UserEntity;
+import com.thsware.entity.BugEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 @Mapper
 @Component
-public interface UserMapper {
-    List<UserEntity> getAll();
+public interface BugMapper {
+
+    List<BugEntity> getAll();
 }
